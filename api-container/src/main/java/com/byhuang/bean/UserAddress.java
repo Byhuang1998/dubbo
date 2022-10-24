@@ -1,12 +1,14 @@
 package com.byhuang.bean;
 
+import java.io.Serializable;
+
 /**
  * @author mskj-huangbingyi
  * @version 1.0
  * @date 2022/10/24 12:22
  * @description TODO
  */
-public class UserAddress {
+public class UserAddress implements Serializable{
 
     private String uid;
 

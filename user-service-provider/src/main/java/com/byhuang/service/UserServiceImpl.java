@@ -19,8 +19,8 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     public List<UserAddress> getAddress(String uid) {
-        UserAddress ua1 = new UserAddress("001", "北京东城");
-        UserAddress ua2 = new UserAddress("001", "上海浦东");
+        UserAddress ua1 = new UserAddress(uid, "北京东城");
+        UserAddress ua2 = new UserAddress(uid, "上海浦东");
         return Arrays.asList(ua1, ua2);
     }
 }
